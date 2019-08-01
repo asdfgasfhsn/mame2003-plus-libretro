@@ -536,5 +536,5 @@ static DRIVER_INIT( kinst2 )
  *
  *************************************/
 
-GAME( 1994, kinst,	0,		kinst, kinst,  kinst,	ROT0, "Rare", "Killer Instinct (v1.0)" )
-GAME( 1994, kinst2, 0,		kinst, kinst,  kinst2,	ROT0, "Rare", "Killer Instinct 2 (v2.1)" )
+GAMEC( 1994, kinst,	0,		kinst, kinst,  kinst,	ROT0, "Rare", "Killer Instinct (v1.0)", &kinst_ctrl, NULL )
+GAMEC( 1994, kinst2, 0,		kinst, kinst,  kinst2,	ROT0, "Rare", "Killer Instinct 2 (v2.1)", &kinst2_ctrl, NULL )
