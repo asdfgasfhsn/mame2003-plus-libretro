@@ -1,0 +1,1 @@
+'for i in $(cat all_ctrls_roms_sorted.out ); do egrep '(^GAME |^GAME\()' src/drivers/*.c | grep " ${i},";done'
